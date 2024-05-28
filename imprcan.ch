@@ -1,79 +1,228 @@
-#DEFINE STR0001 FWI18NLang("IMPRCAN","STR0001",1)
-#DEFINE STR0002 FWI18NLang("IMPRCAN","STR0002",2)
-#DEFINE STR0003 FWI18NLang("IMPRCAN","STR0003",3)
-#DEFINE STR0004 FWI18NLang("IMPRCAN","STR0004",4)
-#DEFINE STR0005 FWI18NLang("IMPRCAN","STR0005",5)
-#DEFINE STR0006 FWI18NLang("IMPRCAN","STR0006",6)
-#DEFINE STR0007 FWI18NLang("IMPRCAN","STR0007",7)
-#DEFINE STR0008 FWI18NLang("IMPRCAN","STR0008",8)
-#DEFINE STR0009 FWI18NLang("IMPRCAN","STR0009",9)
-#DEFINE STR0010 FWI18NLang("IMPRCAN","STR0010",10)
-#DEFINE STR0011 FWI18NLang("IMPRCAN","STR0011",11)
-#DEFINE STR0012 FWI18NLang("IMPRCAN","STR0012",12)
-#DEFINE STR0013 FWI18NLang("IMPRCAN","STR0013",13)
-#DEFINE STR0014 FWI18NLang("IMPRCAN","STR0014",14)
-#DEFINE STR0015 FWI18NLang("IMPRCAN","STR0015",15)
-#DEFINE STR0016 FWI18NLang("IMPRCAN","STR0016",16)
-#DEFINE STR0017 FWI18NLang("IMPRCAN","STR0017",17)
-#DEFINE STR0018 FWI18NLang("IMPRCAN","STR0018",18)
-#DEFINE STR0019 FWI18NLang("IMPRCAN","STR0019",19)
-#DEFINE STR0020 FWI18NLang("IMPRCAN","STR0020",20)
-#DEFINE STR0021 FWI18NLang("IMPRCAN","STR0021",21)
-#DEFINE STR0022 FWI18NLang("IMPRCAN","STR0022",22)
-#DEFINE STR0023 FWI18NLang("IMPRCAN","STR0023",23)
-#DEFINE STR0024 FWI18NLang("IMPRCAN","STR0024",24)
-#DEFINE STR0025 FWI18NLang("IMPRCAN","STR0025",25)
-#DEFINE STR0026 FWI18NLang("IMPRCAN","STR0026",26)
-#DEFINE STR0027 FWI18NLang("IMPRCAN","STR0027",27)
-#DEFINE STR0028 FWI18NLang("IMPRCAN","STR0028",28)
-#DEFINE STR0029 FWI18NLang("IMPRCAN","STR0029",29)
-#DEFINE STR0030 FWI18NLang("IMPRCAN","STR0030",30)
-#DEFINE STR0031 FWI18NLang("IMPRCAN","STR0031",31)
-#DEFINE STR0032 FWI18NLang("IMPRCAN","STR0032",32)
-#DEFINE STR0033 FWI18NLang("IMPRCAN","STR0033",33)
-#DEFINE STR0034 FWI18NLang("IMPRCAN","STR0034",34)
-#DEFINE STR0035 FWI18NLang("IMPRCAN","STR0035",35)
-#DEFINE STR0036 FWI18NLang("IMPRCAN","STR0036",36)
-#DEFINE STR0037 FWI18NLang("IMPRCAN","STR0037",37)
-#DEFINE STR0038 FWI18NLang("IMPRCAN","STR0038",38)
-#DEFINE STR0039 FWI18NLang("IMPRCAN","STR0039",39)
-#DEFINE STR0040 FWI18NLang("IMPRCAN","STR0040",40)
-#DEFINE STR0041 FWI18NLang("IMPRCAN","STR0041",41)
-#DEFINE STR0042 FWI18NLang("IMPRCAN","STR0042",42)
-#DEFINE STR0043 FWI18NLang("IMPRCAN","STR0043",43)
-#DEFINE STR0044 FWI18NLang("IMPRCAN","STR0044",44)
-#DEFINE STR0045 FWI18NLang("IMPRCAN","STR0045",45)
-#DEFINE STR0046 FWI18NLang("IMPRCAN","STR0046",46)
-#DEFINE STR0047 FWI18NLang("IMPRCAN","STR0047",47)
-#DEFINE STR0048 FWI18NLang("IMPRCAN","STR0048",48)
-#DEFINE STR0049 FWI18NLang("IMPRCAN","STR0049",49)
-#DEFINE STR0050 FWI18NLang("IMPRCAN","STR0050",50)
-#DEFINE STR0051 FWI18NLang("IMPRCAN","STR0051",51)
-#DEFINE STR0052 FWI18NLang("IMPRCAN","STR0052",52)
-#DEFINE STR0053 FWI18NLang("IMPRCAN","STR0053",53)
-#DEFINE STR0054 FWI18NLang("IMPRCAN","STR0054",54)
-#DEFINE STR0055 FWI18NLang("IMPRCAN","STR0055",55)
-#DEFINE STR0056 FWI18NLang("IMPRCAN","STR0056",56)
-#DEFINE STR0057 FWI18NLang("IMPRCAN","STR0057",57)
-#DEFINE STR0058 FWI18NLang("IMPRCAN","STR0058",58)
-#DEFINE STR0059 FWI18NLang("IMPRCAN","STR0059",59)
-#DEFINE STR0060 FWI18NLang("IMPRCAN","STR0060",60)
-#DEFINE STR0061 FWI18NLang("IMPRCAN","STR0061",61)
-#DEFINE STR0062 FWI18NLang("IMPRCAN","STR0062",62)
-#DEFINE STR0063 FWI18NLang("IMPRCAN","STR0063",63)
-#DEFINE STR0064 FWI18NLang("IMPRCAN","STR0064",64)
-#DEFINE STR0065 FWI18NLang("IMPRCAN","STR0065",65)
-#DEFINE STR0066 FWI18NLang("IMPRCAN","STR0066",66)
-#DEFINE STR0067 FWI18NLang("IMPRCAN","STR0067",67)
-#DEFINE STR0068 FWI18NLang("IMPRCAN","STR0068",68)
-#DEFINE STR0069 FWI18NLang("IMPRCAN","STR0069",69)
-#DEFINE STR0070 FWI18NLang("IMPRCAN","STR0070",70)
-#DEFINE STR0071 FWI18NLang("IMPRCAN","STR0071",71)
-#DEFINE STR0072 FWI18NLang("IMPRCAN","STR0072",72)
-#DEFINE STR0073 FWI18NLang("IMPRCAN","STR0073",73)
-#DEFINE STR0074 FWI18NLang("IMPRCAN","STR0074",74)
-#DEFINE STR0075 FWI18NLang("IMPRCAN","STR0075",75)
-#DEFINE STR0076 FWI18NLang("IMPRCAN","STR0076",76)
-#DEFINE STR0077 FWI18NLang("IMPRCAN","STR0077",77)
-#DEFINE STR0078 FWI18NLang("IMPRCAN","STR0078",78)
-#DEFINE STR0079 FWI18NLang("IMPRCAN","STR0079",79)
+#ifdef SPANISH
+	#define STR0001 "Ficha del Candidato"
+	#define STR0002 "Se imprimira de acuerdo con los parametros solicitados por el"
+	#define STR0003 "usuario."
+	#define STR0004 "Codigo del Curriculo"
+	#define STR0005 "Nombre"
+	#define STR0006 "Area:"
+	#define STR0007 "A Rayas"
+	#define STR0008 "Administracion"
+	#define STR0009 "FICHA DEL CANDIDATO"
+	#define STR0010 "Empresa: "
+	#define STR0011 "  Sucurs.:"
+	#define STR0012 "Ubicac. : "
+	#define STR0013 "Matricula   : "
+	#define STR0014 "Nomb.: "
+	#define STR0015 "Compl.:"
+	#define STR0016 "Telefono: "
+	#define STR0017 "Curriculo: "
+	#define STR0018 "Prov.: "
+	#define STR0019 "CP: "
+	#define STR0020 "Fc.Nac.: "
+	#define STR0021 "Cargo: "
+	#define STR0022 "Pret.Sal.: "
+	#define STR0023 "DATOS PERSONALES"
+	#define STR0024 "CALIFICACIONES"
+	#define STR0025 "*** Calificaciones no registradas ***"
+	#define STR0026 "ANALISIS"
+	#define STR0027 "*** Analisis no registrada ***"
+	#define STR0028 "HISTORIAL PROFESIONAL"
+	#define STR0029 "Municipio:"
+	#define STR0030 "Actividades:"
+	#define STR0031 "*** Actividad no registrada ***"
+	#define STR0032 "*** Historial Profesional no registrado ***"
+	#define STR0033 "FORMACION ESCOLAR"
+	#define STR0034 "CURSOS EXTRACURRICULARES"
+	#define STR0035 "Entidad: "
+	#define STR0036 "Test Agendado"
+	#define STR0037 "*** Curso Extracurricular no registrado ***"
+	#define STR0038 "Barrio: "
+	#define STR0039 "Cargo Pret.:"
+	#define STR0040 "Ultimo Sal.:"
+	#define STR0041 "EXPERIENCIA"
+	#define STR0042 "EVALUACION"
+	#define STR0043 "PROCESO SELECTIVO/AGENDA"
+	#define STR0044 "Adm.: "
+	#define STR0045 "Dem.: "
+	#define STR0046 "Funcion: "
+	#define STR0047 "Fc.Formac.: "
+	#define STR0048 "Curso: "
+	#define STR0049 "Grupo: "
+	#define STR0050 "Grado: "
+	#define STR0051 "Preguntas"
+	#define STR0052 " / "
+	#define STR0053 "Proceso"
+	#define STR0054 "Prueba Realizada: "
+	#define STR0055 "Num.Preguntas"
+	#define STR0056 "Total Puntos"
+	#define STR0057 "Puntos Obtenid."
+	#define STR0058 "% Acierto"
+	#define STR0059 "Vac.: "
+	#define STR0060 "Itemes"
+	#define STR0061 "Horario"
+	#define STR0062 "Fecha"
+	#define STR0063 "Resultado"
+	#define STR0064 "Atencion"
+	#define STR0065 "No existen datos generados para este informe. Verifique los parametros del informe."
+	#define STR0066 "Factor"
+	#define STR0067 "Celular:"
+	#define STR0068 "e-mail:"
+	#define STR0069 "Fuente Reclut.:"
+	#define STR0070 "Indicacion:"
+	#define STR0071 "FOTO"
+	#define STR0072 "Vacante"
+	#define STR0073 "CARACTERÍSTICAS"
+	#define STR0074 "Características seleccionadas"
+#else
+	#ifdef ENGLISH
+		#define STR0001 "Appicant´s Form"
+		#define STR0002 "It will be printed according to the parameters selected"
+		#define STR0003 "by the user."
+		#define STR0004 "Resume´s Code"
+		#define STR0005 "Name"
+		#define STR0006 "Dept.:"
+		#define STR0007 "Z.Form"
+		#define STR0008 "Management"
+		#define STR0009 "APPLICANT´S FORM"
+		#define STR0010 "Company: "
+		#define STR0011 "  Branch :"
+		#define STR0012 "Address: "
+		#define STR0013 "Registr.No. : "
+		#define STR0014 "Name: "
+		#define STR0015 "Compl.:"
+		#define STR0016 "Phone No: "
+		#define STR0017 "Resume: "
+		#define STR0018 "State: "
+		#define STR0019 "ZIP: "
+		#define STR0020 "Birth Dt: "
+		#define STR0021 "Posit: "
+		#define STR0022 "Sal.Exp.: "
+		#define STR0023 "PERSONAL DATA"
+		#define STR0024 "SKILLS"
+		#define STR0025 "*** Skill not registered ***"
+		#define STR0026 "ANALYSIS"
+		#define STR0027 "*** Analysis not registered ***"
+		#define STR0028 "PROFESSIONAL HISTORY"
+		#define STR0029 "Muniipality:"
+		#define STR0030 "Activities:"
+		#define STR0031 "*** Activity not registered ***"
+		#define STR0032 "*** Professional History not registered ***"
+		#define STR0033 "EDUCATION"
+		#define STR0034 "EXTRA COURSES"
+		#define STR0035 "Entity: "
+		#define STR0036 "Test Scheduled"
+		#define STR0037 "*** Extra Course not registered ***"
+		#define STR0038 "Zone: "
+		#define STR0039 "Expect.Sal.:"
+		#define STR0040 "Last Salary:"
+		#define STR0041 "EXPERIENCE"
+		#define STR0042 "EVALUATION"
+		#define STR0043 "SELECTION/SCHEDULE"
+		#define STR0044 "Adm.Dt.: "
+		#define STR0045 "Dism.Dt: "
+		#define STR0046 "Position: "
+		#define STR0047 "Graduat.Dt.: "
+		#define STR0048 "Course: "
+		#define STR0049 "Group: "
+		#define STR0050 "Degree: "
+		#define STR0051 "Questions"
+		#define STR0052 " / "
+		#define STR0053 "Process"
+		#define STR0054 "Test Carried Out: "
+		#define STR0055 "No.Questions"
+		#define STR0056 "Total Points"
+		#define STR0057 "Points Made"
+		#define STR0058 "% Hits"
+		#define STR0059 "Posit.: "
+		#define STR0060 "Items"
+		#define STR0061 "Shift"
+		#define STR0062 "Date"
+		#define STR0063 "Results"
+		#define STR0064 "Attention"
+		#define STR0065 "There is no data generated for this Report. Check the Parameters in the Report."
+		#define STR0066 "Factor"
+		#define STR0067 "Mobile:"
+		#define STR0068 "e-mail:"
+		#define STR0069 "Recruit. Source:"
+		#define STR0070 "Indication"
+		#define STR0071 "PHOTO"
+		#define STR0072 "Vccy"
+		#define STR0073 "CHARACTERISTICS"
+		#define STR0074 "Selected Characteristics"
+	#else
+		#define STR0001 If( cPaisLoc $ "ANG|PTG", "Ficha Do Candidato", "Ficha do Candidato" )
+		#define STR0002 If( cPaisLoc $ "ANG|PTG", "Sera impresso de acordo com os parâmetro s solicitados pelo", "Será impresso de acordo com os parametros solicitados pelo" )
+		#define STR0003 If( cPaisLoc $ "ANG|PTG", "Utilizador.", "usuario." )
+		#define STR0004 If( cPaisLoc $ "ANG|PTG", "Código Do Currículum", "Codigo do Curriculo" )
+		#define STR0005 "Nome"
+		#define STR0006 If( cPaisLoc $ "ANG|PTG", "área:", "Area:" )
+		#define STR0007 If( cPaisLoc $ "ANG|PTG", "Código de barras", "Zebrado" )
+		#define STR0008 If( cPaisLoc $ "ANG|PTG", "Administração", "Administraçäo" )
+		#define STR0009 If( cPaisLoc $ "ANG|PTG", "Ficha Do Candidato", "FICHA DO CANDIDATO" )
+		#define STR0010 "Empresa: "
+		#define STR0011 If( cPaisLoc $ "ANG|PTG", "  filial :", "  Filial :" )
+		#define STR0012 If( cPaisLoc $ "ANG|PTG", "Endereço: ", "Endereco: " )
+		#define STR0013 "Matricula   : "
+		#define STR0014 "Nome: "
+		#define STR0015 "Compl.:"
+		#define STR0016 "Telefone: "
+		#define STR0017 If( cPaisLoc $ "ANG|PTG", "Currículo: ", "Curriculo: " )
+		#define STR0018 "Estado: "
+		#define STR0019 If( cPaisLoc $ "ANG|PTG", "Código postal: ", "Cep: " )
+		#define STR0020 If( cPaisLoc $ "ANG|PTG", "Dt.nasc.: ", "Dt.Nasc.: " )
+		#define STR0021 "Cargo: "
+		#define STR0022 If( cPaisLoc $ "ANG|PTG", "Pret.sal.: ", "Pret.Sal.: " )
+		#define STR0023 If( cPaisLoc $ "ANG|PTG", "Dados Pessoais", "DADOS PESSOAIS" )
+		#define STR0024 If( cPaisLoc $ "ANG|PTG", "Qualificações", "QUALIFICACOES" )
+		#define STR0025 If( cPaisLoc $ "ANG|PTG", "*** qualificações não registadas ***", "*** Qualificacoes nao cadastrada ***" )
+		#define STR0026 If( cPaisLoc $ "ANG|PTG", "Análise", "ANALISE" )
+		#define STR0027 If( cPaisLoc $ "ANG|PTG", "*** análise não registada ***", "*** Analise nao cadastrada ***" )
+		#define STR0028 If( cPaisLoc $ "ANG|PTG", "Histórico Profissional", "HISTORICO PROFISSIONAL" )
+		#define STR0029 If( cPaisLoc $ "ANG|PTG", "Concelho:", "Municipio:" )
+		#define STR0030 If( cPaisLoc $ "ANG|PTG", "Actividades:", "Atividades:" )
+		#define STR0031 If( cPaisLoc $ "ANG|PTG", "*** actividade não registada ***", "*** Atividade nao cadastrada ***" )
+		#define STR0032 If( cPaisLoc $ "ANG|PTG", "*** histórico profissional não registado ***", "*** Historico Profissional nao cadastrada ***" )
+		#define STR0033 If( cPaisLoc $ "ANG|PTG", "Formação Escolar", "FORMACAO ESCOLAR" )
+		#define STR0034 If( cPaisLoc $ "ANG|PTG", "Cursos Extracurriculares", "CURSOS EXTRACURRICULARES" )
+		#define STR0035 "Entidade: "
+		#define STR0036 "Teste Agendado"
+		#define STR0037 If( cPaisLoc $ "ANG|PTG", "*** curso extracurricular não registado ***", "*** Curso ExtraCurricular nao cadastrado ***" )
+		#define STR0038 If( cPaisLoc $ "ANG|PTG", "Localidade: ", "Bairro: " )
+		#define STR0039 "Cargo Pret.:"
+		#define STR0040 If( cPaisLoc $ "ANG|PTG", "último Sal.:", "Ultimo Sal.:" )
+		#define STR0041 If( cPaisLoc $ "ANG|PTG", "Experiência", "EXPERIENCIA" )
+		#define STR0042 If( cPaisLoc $ "ANG|PTG", "Avaliação", "AVALIACAO" )
+		#define STR0043 If( cPaisLoc $ "ANG|PTG", "Processo Seletivo/agenda", "PROCESSO SELETIVO/AGENDA" )
+		#define STR0044 "Adm."
+		#define STR0045 "Dem."
+		#define STR0046 If( cPaisLoc $ "ANG|PTG", "Função: ", "Funcao: " )
+		#define STR0047 If( cPaisLoc $ "ANG|PTG", "Dt.formação", "Dt.Formacao" )
+		#define STR0048 "Curso: "
+		#define STR0049 "Grupo"
+		#define STR0050 If( cPaisLoc $ "ANG|PTG", "Habilitação", "Grau" )
+		#define STR0051 If( cPaisLoc $ "ANG|PTG", "Questões", "Questoes" )
+		#define STR0052 " / "
+		#define STR0053 "Processo"
+		#define STR0054 "Teste Realizado"
+		#define STR0055 If( cPaisLoc $ "ANG|PTG", "Nr.questoes", "Nr.Questoes" )
+		#define STR0056 "Total Pontos"
+		#define STR0057 "Pontos Obtidos"
+		#define STR0058 "% Acerto"
+		#define STR0059 "Vaga: "
+		#define STR0060 "Itens"
+		#define STR0061 If( cPaisLoc $ "ANG|PTG", "Horário", "Horario" )
+		#define STR0062 "Data"
+		#define STR0063 "Resultado"
+		#define STR0064 If( cPaisLoc $ "ANG|PTG", "Atenção", "Atencao" )
+		#define STR0065 If( cPaisLoc $ "ANG|PTG", "Não Existe Dados Criados Para Este Relatório. Verifique Os Parâmetro S Do Relatório.", "Nao existe dados gerados para este Relatorio. Verifique os parametros do Relatorio." )
+		#define STR0066 If( cPaisLoc $ "ANG|PTG", "Factor", "Fator" )
+		#define STR0067 If( cPaisLoc $ "ANG|PTG", "Telemóvel:", "Celular:" )
+		#define STR0068 If( cPaisLoc $ "ANG|PTG", "E-mail:", "e-mail:" )
+		#define STR0069 "Fonte Recrutam.:"
+		#define STR0070 If( cPaisLoc $ "ANG|PTG", "Indicação:", "Indicacäo:" )
+		#define STR0071 If( cPaisLoc $ "ANG|PTG", "Foto", "FOTO" )
+		#define STR0072 "Vaga"
+		#define STR0073 "CARACTERÍSTICAS"
+		#define STR0074 "Características Selecionadas"
+	#endif
+#endif

@@ -33,7 +33,7 @@
 	#define STR0032 "Transportad.: "
 	#define STR0033 "Vencimiento : "
 	#define STR0034 "Observacion "
-	#define STR0035 "Item Producto        Descripcion                   UM   Ctd.     Vlr Unit.      Vlr Item %Desc.     Val. Desc. %Acrec.   Val Acrec."
+	#define STR0035 "Item Producto                  Descripcion                     UM   Cant     Vlr Unit.      Vlr Item %Desc.   Val. Desc.  %Aum. Val Aumen."
 	#define STR0036 "Total de las cantidades"
 	#define STR0037 "Valor total del presupuesto"
 	#define STR0038 "| Vencto   Forma          Valor || Vencto   Forma          Valor || Vencto   Forma          Valor || Vencto   Forma          Valor |"
@@ -73,7 +73,7 @@
 		#define STR0032 "Carrier     : "
 		#define STR0033 "Validity    : "
 		#define STR0034 "Observat. : "
-		#define STR0035 "Item Product         Description                   MU   Qtt.     Vl. Unit.      Vl. Item %Disc.     Vl.  Disc. %Addit.   Vl. Addit. "
+		#define STR0035 "Item Product              Description                ONE  Qtty     Unit Value      Vl. Item %Disc.   Disc. Vl. %Add. Value Addition."
 		#define STR0036 "Total of quantities"
 		#define STR0037 "Budget total value"
 		#define STR0038 "| Due Dt.  Mode           Value || Due Dt.  Mode           Value || Due Dt.  Mode           Value || Due Dt.  Mode           Value |"
@@ -112,7 +112,7 @@
 		#define STR0032 "Transportad.: "
 		#define STR0033 If( cPaisLoc $ "ANG|PTG", "Validade: ", "Validade    : " )
 		#define STR0034 "Observação: "
-		#define STR0035 If( cPaisLoc $ "ANG|PTG", "Item Artigo         Descrição                     Um   Qtde.     Vlr Unit.      Vlr Item %Desc.     Val. Desc. %Acresc.  Val Acresc.", "Item Produto                        Descrição                     UM   Qtde     Vlr Unit.      Vlr Item %Desc.     Val. Desc. %Acresc.  Val Acresc." )
+		#define STR0035 "Item Produto              Descrição                  UM   Qtde     Vlr Unit.      Vlr Item %Desc.   Val. Desc.  %Acresc. Val Acresc."
 		#define STR0036 "Total das quantidades"
 		#define STR0037 "Valor total do orçamento"
 		#define STR0038 If( cPaisLoc $ "ANG|PTG", "|Vencto.   Forma          Valor || Vencto.   Forma          Valor || Vencto.   Forma          Valor || Vencto.   Forma          Valor |", "| Vencto   Forma          Valor || Vencto   Forma          Valor || Vencto   Forma          Valor || Vencto   Forma          Valor |" )

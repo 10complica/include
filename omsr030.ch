@@ -18,9 +18,9 @@
 	#define STR0017 "TOTAL =>"
 	#define STR0018 "SECUENCIA FACTURA(1)    SERIE PEDIDO  CLIENTE   NOMBRE               DIRECCION                                "
 	#define STR0019 "ENTREGA   "
-	#define STR0020 "PRODUCTO             DESCRIPCION                               CANT.            VALOR"
+	#define STR0020 "PRODUCTO                       DESCRIPCION                               CANT             VALOR"
 	#define STR0021 "No informada"
-	#define STR0022 "COND. PAGO"
+	#define STR0022 " COND. PAGO"
 	#define STR0023 "Este informe imprimira el mapa de entregas segun los parametros informados por el usuario. El mapa de entrega demuestra el itinerario de entrega de los documentos de salida, ademas de los valores que el responsable por la entrega recolectara."
 	#define STR0024 "Carga"
 	#define STR0025 "Sec."
@@ -54,9 +54,9 @@
 		#define STR0017 "TOTAL =>"
 		#define STR0018 "SEQUENCE  INVOICE(1)    SER.  ORDER   CUSTOMER  NAME                 LOCATION                                 "
 		#define STR0019 "DELIVERY  "
-		#define STR0020 "PRODUCT              DESCRIPT.                                 QTTY             VALUE"
+		#define STR0020 "PRODUCT                        DESCRIPTION                                 AMT             VALUE"
 		#define STR0021 "Not typed"
-		#define STR0022 "PAYMENT"
+		#define STR0022 " PAYMENT"
 		#define STR0023 "This report prints the delivery map according to the parameters entered by the user. The delivery map displays the delivery route of the outflow documents, as well as the amounts to be collected by the person responsible for the delivery. "
 		#define STR0024 "Cargo"
 		#define STR0025 "Seq."
@@ -70,83 +70,39 @@
 		#define STR0033 "Item of outflow document  "
 		#define STR0034 "Delivery Docum."
 	#else
-		Static STR0001 := "Mapa de Entregas"
-		Static STR0002 := "Este relatorio ira imprimir o mapa de entregas de acordo"
-		Static STR0003 := "com os parametros informados pelo usuario"
-		Static STR0004 := "SEQUENCIA NOTA       SERIE  PEDIDO  CLIENTE   NOME                 ENDERECO                                 "
-		Static STR0005 := "ENTREGA   FISCAL"
-		Static STR0006 := "CARGA   : "
-		Static STR0007 := "VEICULO : "
-		Static STR0008 := "MOTORISTA : "
-		Static STR0009 := "PESO    :"
-		Static STR0010 := "VOLUME M3 : "
-		Static STR0011 := "PTOS ENTREGA : "
-		Static STR0012 := "VALOR : "
-		Static STR0013 := "DATA    :"
-		Static STR0014 := " AS "
-		Static STR0015 := "FORMAS DE PAGAMENTO"
-		Static STR0016 := "CLIENTE :"
-		Static STR0017 := "TOTAL =>"
-		Static STR0018 := "SEQUENCIA NOTA F.(1)    SERIE PEDIDO  CLIENTE   NOME                 ENDERECO                                "
-		Static STR0019 := "ENTREGA   "
-		Static STR0020 := "PRODUTO              DESCRICAO                                 QTDE             VALOR"
-		Static STR0021 := "Nao informada"
-		Static STR0022 := "PAGAMENTO"
-		Static STR0023 := "Este relatorio ira imprimir o mapa de entregas de acordo com os parametros informados pelo usuario. O mapa de entrega demonstra o roteiro de entrega dos documentos de saída, bem como os valores que serão coletados pelo responsável da entrega."
-		#define STR0024  "Carga"
-		#define STR0025  "Seq."
-		#define STR0026  "Cliente"
-		Static STR0027 := "Forma de Pagamento"
-		#define STR0028  "Não informada"
-		Static STR0029 := "Documento de Saída"
-		Static STR0030 := "Serie"
-		Static STR0031 := "UF"
-		Static STR0032 := "Cond.Pag."
-		#define STR0033  "Item do documento de saída"
-		Static STR0034 := "Mapa de Entrega"
+		#define STR0001 If( cPaisLoc $ "ANG|PTG", "Mapa De Entregas", "Mapa de Entregas" )
+		#define STR0002 If( cPaisLoc $ "ANG|PTG", "Este relatório irá imprimir o mapa de entregas de acordo", "Este relatorio ira imprimir o mapa de entregas de acordo" )
+		#define STR0003 If( cPaisLoc $ "ANG|PTG", "Com os parâmetro s informados pelo utilizador", "com os parametros informados pelo usuario" )
+		#define STR0004 If( cPaisLoc $ "ANG|PTG", "Sequência nota       série  pedido  cliente   nome                 endereço                                 ", "SEQUENCIA NOTA       SERIE  PEDIDO  CLIENTE   NOME                 ENDERECO                                 " )
+		#define STR0005 If( cPaisLoc $ "ANG|PTG", "Entrega   Fiscal", "ENTREGA   FISCAL" )
+		#define STR0006 If( cPaisLoc $ "ANG|PTG", "Carga   : ", "CARGA   : " )
+		#define STR0007 If( cPaisLoc $ "ANG|PTG", "Veiculo : ", "VEICULO : " )
+		#define STR0008 If( cPaisLoc $ "ANG|PTG", "Condutor : ", "MOTORISTA : " )
+		#define STR0009 If( cPaisLoc $ "ANG|PTG", "Peso    :", "PESO    :" )
+		#define STR0010 If( cPaisLoc $ "ANG|PTG", "Volume m3 : ", "VOLUME M3 : " )
+		#define STR0011 If( cPaisLoc $ "ANG|PTG", "Ptos entrega : ", "PTOS ENTREGA : " )
+		#define STR0012 If( cPaisLoc $ "ANG|PTG", "Valor : ", "VALOR : " )
+		#define STR0013 If( cPaisLoc $ "ANG|PTG", "Data    :", "DATA    :" )
+		#define STR0014 If( cPaisLoc $ "ANG|PTG", " as ", " AS " )
+		#define STR0015 If( cPaisLoc $ "ANG|PTG", "Formas De Pagamento", "FORMAS DE PAGAMENTO" )
+		#define STR0016 If( cPaisLoc $ "ANG|PTG", "Cliente :", "CLIENTE :" )
+		#define STR0017 If( cPaisLoc $ "ANG|PTG", "Total =>", "TOTAL =>" )
+		#define STR0018 If( cPaisLoc $ "ANG|PTG", "Sequência nota f.(1)    série pedido  cliente   nome                 endereço                                ", "SEQUENCIA NOTA F.(1)    SERIE PEDIDO  CLIENTE   NOME                 ENDERECO                                " )
+		#define STR0019 If( cPaisLoc $ "ANG|PTG", "Entrega   ", "ENTREGA   " )
+		#define STR0020 If( cPaisLoc $ "ANG|PTG", "ARTIGO                        DESCRIÇÃO                                 QTDE             VALOR", "PRODUTO                        DESCRICAO                                 QTDE             VALOR" )
+		#define STR0021 If( cPaisLoc $ "ANG|PTG", "Não indicada", "Nao informada" )
+		#define STR0022 If( cPaisLoc $ "ANG|PTG", " Pagamento", " PAGAMENTO" )
+		#define STR0023 If( cPaisLoc $ "ANG|PTG", "Este relatório irá imprimir o mapa de entregas de acordo com os parâmetros introduzidos pelo utilizador. o mapa de entrega demonstra a lista de entrega dos documentos de saída, assim como os valores que serão recebidos pelo responsável da entrega.", "Este relatorio ira imprimir o mapa de entregas de acordo com os parametros informados pelo usuario. O mapa de entrega demonstra o roteiro de entrega dos documentos de saída, bem como os valores que serão coletados pelo responsável da entrega." )
+		#define STR0024 "Carga"
+		#define STR0025 "Seq."
+		#define STR0026 "Cliente"
+		#define STR0027 If( cPaisLoc $ "ANG|PTG", "Forma De Pagamento", "Forma de Pagamento" )
+		#define STR0028 "Não informada"
+		#define STR0029 If( cPaisLoc $ "ANG|PTG", "Documento de saída", "Documento de Saída" )
+		#define STR0030 If( cPaisLoc $ "ANG|PTG", "Série", "Serie" )
+		#define STR0031 If( cPaisLoc $ "ANG|PTG", "Uf", "UF" )
+		#define STR0032 If( cPaisLoc $ "ANG|PTG", "Cond.pag.", "Cond.Pag." )
+		#define STR0033 "Item do documento de saída"
+		#define STR0034 If( cPaisLoc $ "ANG|PTG", "Mapa De Entrega", "Mapa de Entrega" )
 	#endif
 #endif
-
-#ifndef SPANISH
-#ifndef ENGLISH
-	STATIC uInit := __InitFun()
-
-	Static Function __InitFun()
-	uInit := Nil
-	If Type('cPaisLoc') == 'C'
-
-		If cPaisLoc == "PTG"
-			STR0001 := "Mapa De Entregas"
-			STR0002 := "Este relatório irá imprimir o mapa de entregas de acordo"
-			STR0003 := "Com os parâmetro s informados pelo utilizador"
-			STR0004 := "Sequência nota       série  pedido  cliente   nome                 endereço                                 "
-			STR0005 := "Entrega   Fiscal"
-			STR0006 := "Carga   : "
-			STR0007 := "Veiculo : "
-			STR0008 := "Condutor : "
-			STR0009 := "Peso    :"
-			STR0010 := "Volume m3 : "
-			STR0011 := "Ptos entrega : "
-			STR0012 := "Valor : "
-			STR0013 := "Data    :"
-			STR0014 := " as "
-			STR0015 := "Formas De Pagamento"
-			STR0016 := "Cliente :"
-			STR0017 := "Total =>"
-			STR0018 := "Sequência nota f.(1)    série pedido  cliente   nome                 endereço                                "
-			STR0019 := "Entrega   "
-			STR0020 := "Produto              Descrição                                 Qtde             Valor"
-			STR0021 := "Não indicada"
-			STR0022 := "Pagamento"
-			STR0023 := "Este relatório irá imprimir o mapa de entregas de acordo com os parâmetros introduzidos pelo utilizador. o mapa de entrega demonstra a lista de entrega dos documentos de saída, assim como os valores que serão recebidos pelo responsável da entrega."
-			STR0027 := "Forma De Pagamento"
-			STR0029 := "Documento de saída"
-			STR0030 := "Série"
-			STR0031 := "Uf"
-			STR0032 := "Cond.pag."
-			STR0034 := "Mapa De Entrega"
-		EndIf
-		EndIf
-	Return Nil
-#ENDIF
-#ENDIF

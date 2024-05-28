@@ -1,62 +1,192 @@
-#DEFINE STR0001 FWI18NLang("MATR700","STR0001",1)
-#DEFINE STR0002 FWI18NLang("MATR700","STR0002",2)
-#DEFINE STR0003 FWI18NLang("MATR700","STR0003",3)
-#DEFINE STR0004 FWI18NLang("MATR700","STR0004",4)
-#DEFINE STR0005 FWI18NLang("MATR700","STR0005",5)
-#DEFINE STR0006 FWI18NLang("MATR700","STR0006",6)
-#DEFINE STR0007 FWI18NLang("MATR700","STR0007",7)
-#DEFINE STR0008 FWI18NLang("MATR700","STR0008",8)
-#DEFINE STR0009 FWI18NLang("MATR700","STR0009",9)
-#DEFINE STR0010 FWI18NLang("MATR700","STR0010",10)
-#DEFINE STR0011 FWI18NLang("MATR700","STR0011",11)
-#DEFINE STR0012 FWI18NLang("MATR700","STR0012",12)
-#DEFINE STR0013 FWI18NLang("MATR700","STR0013",13)
-#DEFINE STR0014 FWI18NLang("MATR700","STR0014",14)
-#DEFINE STR0015 FWI18NLang("MATR700","STR0015",15)
-#DEFINE STR0016 FWI18NLang("MATR700","STR0016",16)
-#DEFINE STR0017 FWI18NLang("MATR700","STR0017",17)
-#DEFINE STR0018 FWI18NLang("MATR700","STR0018",18)
-#DEFINE STR0019 FWI18NLang("MATR700","STR0019",19)
-#DEFINE STR0020 FWI18NLang("MATR700","STR0020",20)
-#DEFINE STR0022 FWI18NLang("MATR700","STR0022",21)
-#DEFINE STR0023 FWI18NLang("MATR700","STR0023",22)
-#DEFINE STR0024 FWI18NLang("MATR700","STR0024",23)
-#DEFINE STR0025 FWI18NLang("MATR700","STR0025",24)
-#DEFINE STR0026 FWI18NLang("MATR700","STR0026",25)
-#DEFINE STR0027 FWI18NLang("MATR700","STR0027",26)
-#DEFINE STR0028 FWI18NLang("MATR700","STR0028",27)
-#DEFINE STR0029 FWI18NLang("MATR700","STR0029",28)
-#DEFINE STR0030 FWI18NLang("MATR700","STR0030",29)
-#DEFINE STR0031 FWI18NLang("MATR700","STR0031",30)
-#DEFINE STR0032 FWI18NLang("MATR700","STR0032",31)
-#DEFINE STR0033 FWI18NLang("MATR700","STR0033",32)
-#DEFINE STR0034 FWI18NLang("MATR700","STR0034",33)
-#DEFINE STR0035 FWI18NLang("MATR700","STR0035",34)
-#DEFINE STR0036 FWI18NLang("MATR700","STR0036",35)
-#DEFINE STR0037 FWI18NLang("MATR700","STR0037",36)
-#DEFINE STR0038 FWI18NLang("MATR700","STR0038",37)
-#DEFINE STR0039 FWI18NLang("MATR700","STR0039",38)
-#DEFINE STR0040 FWI18NLang("MATR700","STR0040",39)
-#DEFINE STR0041 FWI18NLang("MATR700","STR0041",40)
-#DEFINE STR0042 FWI18NLang("MATR700","STR0042",41)
-#DEFINE STR0043 FWI18NLang("MATR700","STR0043",42)
-#DEFINE STR0044 FWI18NLang("MATR700","STR0044",43)
-#DEFINE STR0045 FWI18NLang("MATR700","STR0045",44)
-#DEFINE STR0046 FWI18NLang("MATR700","STR0046",45)
-#DEFINE STR0047 FWI18NLang("MATR700","STR0047",46)
-#DEFINE STR0048 FWI18NLang("MATR700","STR0048",47)
-#DEFINE STR0049 FWI18NLang("MATR700","STR0049",48)
-#DEFINE STR0050 FWI18NLang("MATR700","STR0050",49)
-#DEFINE STR0051 FWI18NLang("MATR700","STR0051",50)
-#DEFINE STR0052 FWI18NLang("MATR700","STR0052",51)
-#DEFINE STR0053 FWI18NLang("MATR700","STR0053",52)
-#DEFINE STR0054 FWI18NLang("MATR700","STR0054",53)
-#DEFINE STR0055 FWI18NLang("MATR700","STR0055",54)
-#DEFINE STR0056 FWI18NLang("MATR700","STR0056",55)
-#DEFINE STR0057 FWI18NLang("MATR700","STR0057",56)
-#DEFINE STR0058 FWI18NLang("MATR700","STR0058",57)
-#DEFINE STR0059 FWI18NLang("MATR700","STR0059",58)
-#DEFINE STR0060 FWI18NLang("MATR700","STR0060",59)
-#DEFINE STR0061 FWI18NLang("MATR700","STR0061",60)
-#DEFINE STR0062 FWI18NLang("MATR700","STR0062",61)
-#DEFINE STR0063 FWI18NLang("MATR700","STR0063",62)
+#ifdef SPANISH
+	#define STR0001 "Detalle de los pedidos de ventas"
+	#define STR0002 "Este programa emitira el detalle de los pedidos de ventas"
+	#define STR0003 "Se efectuara la busqueda en el deposito y comprobara"
+	#define STR0004 "realmente si existe y esta disponible. "
+	#define STR0005 " Por num. pedido   "
+	#define STR0006 " Por producto      "
+	#define STR0007 " Por fecha entrega "
+	#define STR0008 "A Rayas"
+	#define STR0009 "Administracion"
+	#define STR0010 "IT CODIGO PRODUCTO DESCRIPCION DEL PRODUCTO         STOCK       ----------- Pedido -------------      CTD.         CTD.       VALOR    PRECIO UNIT.    SITUACION DE LA          VALOR IVA              VALOR A"
+	#define STR0011 "                                                  DISPONIBLE    VENDIDO     ATENDIDO      SALDO     LIBERADA    BLOQUEADA   DESCUENTO     NETO       ORDEN DE PRODUCCION                               FACTURAR      ENTREGA"
+	#define STR0012 "Seleccionando registros..."
+	#define STR0013 "PEDIDO"
+	#define STR0014 "PRODUCTO"
+	#define STR0015 "FECHA DE ENTREGA"
+	#define STR0016 " PRONTO P/ FACTURAR "
+	#define STR0017 " NO APROBADOS   "
+	#define STR0018 " - ORDEN DE "
+	#define STR0019 "ANULADO POR EL OPERADOR"
+	#define STR0020 "TOTAL DEL PEDIDO--> "
+	#define STR0022 "TOTAL GENERAL--> "
+	#define STR0023 "PEDIDO : "
+	#define STR0024 "PROVEEDOR  : "
+	#define STR0025 "SUCURSAL: "
+	#define STR0026 "EMISION : "
+	#define STR0027 "TRANSPORTADORA: "
+	#define STR0028 "VENDEDOR(ES): "
+	#define STR0029 "CLIENTE : "
+	#define STR0030 "COND.PAGO: "
+	#define STR0031 "Lista de Pedidos de Ventas  "
+	#define STR0032 "Este programa emitira una lista con los Pedidos de Ventas"
+	#define STR0033 "Se hara busqueda en el almacen y se comprobara"
+	#define STR0034 "si la cantidad esta disponible"
+	#define STR0035 "IT"
+	#define STR0036 "Stock Disponible"
+	#define STR0037 "Vendido"
+	#define STR0038 "Atendido"
+	#define STR0039 "Saldo"
+	#define STR0040 "Ctd.Bloqueada"
+	#define STR0041 "Impuestos"
+	#define STR0042 "Valor a Entregar"
+	#define STR0043 "Pedido"
+	#define STR0044 "Producto"
+	#define STR0045 "Fecha de Entrega"
+	#define STR0046 " - Orden de "
+	#define STR0047 "Pedido "
+	#define STR0048 "Proveedor : "
+	#define STR0049 "Cliente : "
+	#define STR0050 "Tienda"
+	#define STR0051 "Emision "
+	#define STR0052 "Transportadora "
+	#define STR0053 "Vendedor(es) "
+	#define STR0054 "Cond.Pago "
+	#define STR0055 "Total del Pedido-->"
+	#define STR0056 "Listo p/Facturar "
+	#define STR0057 " No  Aprobados "
+	#define STR0058 "Seleccionando Registros..."
+	#define STR0059 "Situacion Orden de Produccion"
+	#define STR0060 "Encabez. del Pedido"
+	#define STR0061 "Items de Pedido"
+	#define STR0062 "Total delProducto->"
+	#define STR0063 "Total de Fecha->"
+#else
+	#ifdef ENGLISH
+		#define STR0001 "Sales Order Report - Ordered by Order Number"
+		#define STR0002 "This program will print the Sales Orders list"
+		#define STR0003 "Perform a search in the warehouse to check"
+		#define STR0004 "whether the quantity is available."
+		#define STR0005 " By order number"
+		#define STR0006 " By product"
+		#define STR0007 " By delivery date"
+		#define STR0008 "Z.Form "
+		#define STR0009 "Management"
+		#define STR0010 "IT CODE   PRODUCT  DESCRIPTION                    AVAILABLE     ----------- ORDER  -------------      QTY.         QTY.      VALUE OF  NET UNIT         SITUATION OF                                   VALUE TO"
+		#define STR0011 "                                                  STOCK         SOLD       ATTENDED      BALANCE    RELEASED     BLOCKED     DISCOUNT    PRICE       ORDER OF PRODUCT.                                 INVOICE      DELIVERY"
+		#define STR0012 "Selecting Records..."
+		#define STR0013 "ORDER "
+		#define STR0014 "PRODUCT"
+		#define STR0015 "DELIVERY DATE"
+		#define STR0016 "READY TO INVOICE"
+		#define STR0017 " NOT RELEASED"
+		#define STR0018 " - ORDER OF "
+		#define STR0019 "CANCELLED BY THE OPERATOR"
+		#define STR0020 "TOTAL OF ORDER --> "
+		#define STR0022 "GRAND TOTAL---> "
+		#define STR0023 "ORDER: "
+		#define STR0024 "VENDOR:   "
+		#define STR0025 "UNIT:"
+		#define STR0026 "ISSUE: "
+		#define STR0027 "CARRIER: "
+		#define STR0028 "REPRES.:"
+		#define STR0029 "CUSTOMER:"
+		#define STR0030 "PAYM.TERMS: "
+		#define STR0031 "List of sales orders        "
+		#define STR0032 "This program will list sales orders                      "
+		#define STR0033 "A search will be made in warehouse and check"
+		#define STR0034 "for quantity available         "
+		#define STR0035 "IT"
+		#define STR0036 "Stock available   "
+		#define STR0037 "Sold   "
+		#define STR0038 "Attended"
+		#define STR0039 "Blnce"
+		#define STR0040 "Qty. blocked "
+		#define STR0041 "Taxes   "
+		#define STR0042 "Amnt. to deliver"
+		#define STR0043 "Order "
+		#define STR0044 "Product"
+		#define STR0045 "Delivery date  "
+		#define STR0046 " - Order of "
+		#define STR0047 "Order  "
+		#define STR0048 "Vendor:      "
+		#define STR0049 "Customer: "
+		#define STR0050 "Store"
+		#define STR0051 "Issue   "
+		#define STR0052 "Carrier        "
+		#define STR0053 "Sales rep(ES)"
+		#define STR0054 "PaymentTerm"
+		#define STR0055 "Order total    -->"
+		#define STR0056 "Ready for billing"
+		#define STR0057 " Not released   "
+		#define STR0058 "Selecting records ...    "
+		#define STR0059 "Production order status   "
+		#define STR0060 "Order header       "
+		#define STR0061 "Order items    "
+		#define STR0062 "Product total   -->"
+		#define STR0063 "Date total   -->"
+	#else
+		#define STR0001 If( cPaisLoc $ "ANG|PTG", "Relação De Pedidos De Vendas", "Relacao de Pedidos de Vendas" )
+		#define STR0002 If( cPaisLoc $ "ANG|PTG", "Este Programa Irá Emitir A Relação  Dos Pedidos De Vendas", "Este programa ira emitir a relacao  dos Pedidos de Vendas" )
+		#define STR0003 If( cPaisLoc $ "ANG|PTG", "Sera feita a pesquisa no armazém e verificado", "Sera feita a pesquisa no armazem e verificado" )
+		#define STR0004 If( cPaisLoc $ "ANG|PTG", "Se a quantidade esta disponivel", "se a quantidade esta disponivel" )
+		#define STR0005 If( cPaisLoc $ "ANG|PTG", " por nº pedido      ", " Por nº pedido      " )
+		#define STR0006 If( cPaisLoc $ "ANG|PTG", " Por artigo      ", " Por produto      " )
+		#define STR0007 If( cPaisLoc $ "ANG|PTG", " por data entrega ", " Por data entrega " )
+		#define STR0008 If( cPaisLoc $ "ANG|PTG", "Código de barras", "Zebrado" )
+		#define STR0009 If( cPaisLoc $ "ANG|PTG", "Administração", "Administracao" )
+		#define STR0010 If( cPaisLoc $ "ANG|PTG", "EL CODIGO ARTIGO  DESCRICAO DO ARTIGO            STOCK      ----------- PEDIDO -------------      QTD.         QTD.      VALOR DO  PRECO UNIT.      SITUACAO DA              IMPOSTOS              VALOR A", "IT CODIGO - DESCRICAO DO PRODUTO                   ESTOQUE      ----------- PEDIDO -------------      QTD.         QTD.      VALOR DO  PRECO UNIT.      SITUACAO DA              IMPOSTOS              VALOR A" )
+		#define STR0011 If( cPaisLoc $ "ANG|PTG", "                                                  Disponivel    Vendido     Atendido      Saldo     Autorizada    Bloqueada    Desconto    Liquido     Ordem De Produção                                 Facturar       Entrega", "                                                  DISPONIVEL    VENDIDO     ATENDIDO      SALDO     LIBERADA    BLOQUEADA    DESCONTO    LIQUIDO     ORDEM DE PRODUCAO                                 FATURAR       ENTREGA" )
+		#define STR0012 If( cPaisLoc $ "ANG|PTG", "A Seleccionar Registos...", "Selecionando Registros..." )
+		#define STR0013 If( cPaisLoc $ "ANG|PTG", "Pedido", "PEDIDO" )
+		#define STR0014 If( cPaisLoc $ "ANG|PTG", "ARTIGO", "PRODUTO" )
+		#define STR0015 If( cPaisLoc $ "ANG|PTG", "Data De Entrega", "DATA DE ENTREGA" )
+		#define STR0016 If( cPaisLoc $ "ANG|PTG", " aptos a facturar ", " APTOS A FATURAR " )
+		#define STR0017 If( cPaisLoc $ "ANG|PTG", " não autorizados   ", " NAO LIBERADOS   " )
+		#define STR0018 If( cPaisLoc $ "ANG|PTG", " - ordem de ", " - ORDEM DE " )
+		#define STR0019 If( cPaisLoc $ "ANG|PTG", "Cancelado Pelo Operador", "CANCELADO PELO OPERADOR" )
+		#define STR0020 If( cPaisLoc $ "ANG|PTG", "Total do pedido--> ", "TOTAL DO PEDIDO--> " )
+		#define STR0022 If( cPaisLoc $ "ANG|PTG", "TOTAL CRIAL--> ", "TOTAL GERAL--> " )
+		#define STR0023 If( cPaisLoc $ "ANG|PTG", "Pedido : ", "PEDIDO : " )
+		#define STR0024 If( cPaisLoc $ "ANG|PTG", "Fornecedor : ", "FORNECEDOR : " )
+		#define STR0025 If( cPaisLoc $ "ANG|PTG", "Loja : ", "LOJA : " )
+		#define STR0026 If( cPaisLoc $ "ANG|PTG", "Emissão : ", "EMISSAO : " )
+		#define STR0027 If( cPaisLoc $ "ANG|PTG", "Transportadora: ", "TRANSPORTADORA: " )
+		#define STR0028 If( cPaisLoc $ "ANG|PTG", "Vendedor(es): ", "VENDEDOR(ES): " )
+		#define STR0029 If( cPaisLoc $ "ANG|PTG", "Cliente : ", "CLIENTE : " )
+		#define STR0030 If( cPaisLoc $ "ANG|PTG", "Cond.pgt: ", "COND.PGTO: " )
+		#define STR0031 If( cPaisLoc $ "ANG|PTG", "Relação De Pedidos De Vendas", "Relacao de Pedidos de Vendas" )
+		#define STR0032 If( cPaisLoc $ "ANG|PTG", "Este Programa Irá Emitir A Relação  Dos Pedidos De Vendas", "Este programa ira emitir a relacao  dos Pedidos de Vendas" )
+		#define STR0033 If( cPaisLoc $ "ANG|PTG", "Sera feita a pesquisa no armazém e verificado", "Sera feita a pesquisa no armazem e verificado" )
+		#define STR0034 If( cPaisLoc $ "ANG|PTG", "Se a quantidade esta disponivel", "se a quantidade esta disponivel" )
+		#define STR0035 If( cPaisLoc $ "ANG|PTG", "EL", "IT" )
+		#define STR0036 If( cPaisLoc $ "ANG|PTG", "Stock Disponível", "Estoque Disponivel" )
+		#define STR0037 "Vendido"
+		#define STR0038 "Atendido"
+		#define STR0039 "Saldo"
+		#define STR0040 If( cPaisLoc $ "ANG|PTG", "Qtd.bloqueada", "Qtd.Bloqueada" )
+		#define STR0041 "Impostos"
+		#define STR0042 If( cPaisLoc $ "ANG|PTG", "Valor A Entregar", "Valor a Entregar" )
+		#define STR0043 "Pedido"
+		#define STR0044 If( cPaisLoc $ "ANG|PTG", "Artigo", "Produto" )
+		#define STR0045 If( cPaisLoc $ "ANG|PTG", "Data De Entrega", "Data de Entrega" )
+		#define STR0046 If( cPaisLoc $ "ANG|PTG", " - ordem de ", " - Ordem de " )
+		#define STR0047 "Pedido "
+		#define STR0048 "Fornecedor : "
+		#define STR0049 "Cliente : "
+		#define STR0050 "Loja "
+		#define STR0051 If( cPaisLoc $ "ANG|PTG", "Emissão ", "Emissao " )
+		#define STR0052 "Transportadora "
+		#define STR0053 If( cPaisLoc $ "ANG|PTG", "Vendedor(es) ", "Vendedor(ES) " )
+		#define STR0054 If( cPaisLoc $ "ANG|PTG", "Cond.pagto ", "Cond.Pagto " )
+		#define STR0055 If( cPaisLoc $ "ANG|PTG", "Total Do Pedido-->", "Total do Pedido-->" )
+		#define STR0056 If( cPaisLoc $ "ANG|PTG", " aptos a facturar ", " Aptos a Faturar " )
+		#define STR0057 If( cPaisLoc $ "ANG|PTG", " não autorizados  ", " Nao Liberados  " )
+		#define STR0058 If( cPaisLoc $ "ANG|PTG", "A seleccionar registos...", "Selecionando Registros..." )
+		#define STR0059 If( cPaisLoc $ "ANG|PTG", "Situação Ordem De Produção", "Situacao Ordem de Producao" )
+		#define STR0060 If( cPaisLoc $ "ANG|PTG", "Cabeçalho Do Pedido", "Cabecalho do Pedido" )
+		#define STR0061 If( cPaisLoc $ "ANG|PTG", "Elem. Do Pedido", "Itens do Pedido" )
+		#define STR0062 If( cPaisLoc $ "ANG|PTG", "Total Do Artigo-->", "Total do Produto-->" )
+		#define STR0063 If( cPaisLoc $ "ANG|PTG", "Total Da Data-->", "Total da Data-->" )
+	#endif
+#endif

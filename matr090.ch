@@ -1,40 +1,72 @@
-#DEFINE STR0001 FWI18NLang("MATR090","STR0001",1)
-#DEFINE STR0002 FWI18NLang("MATR090","STR0002",2)
-#DEFINE STR0003 FWI18NLang("MATR090","STR0003",3)
-#DEFINE STR0004 FWI18NLang("MATR090","STR0004",4)
-#DEFINE STR0005 FWI18NLang("MATR090","STR0005",5)
-#DEFINE STR0006 FWI18NLang("MATR090","STR0006",6)
-#DEFINE STR0007 FWI18NLang("MATR090","STR0007",7)
-#DEFINE STR0008 FWI18NLang("MATR090","STR0008",8)
-#DEFINE STR0009 FWI18NLang("MATR090","STR0009",9)
-#DEFINE STR0010 FWI18NLang("MATR090","STR0010",10)
-#DEFINE STR0011 FWI18NLang("MATR090","STR0011",11)
-#DEFINE STR0012 FWI18NLang("MATR090","STR0012",12)
-#DEFINE STR0013 FWI18NLang("MATR090","STR0013",13)
-#DEFINE STR0014 FWI18NLang("MATR090","STR0014",14)
-#DEFINE STR0015 FWI18NLang("MATR090","STR0015",15)
-#DEFINE STR0016 FWI18NLang("MATR090","STR0016",16)
-#DEFINE STR0017 FWI18NLang("MATR090","STR0017",17)
-#DEFINE STR0018 FWI18NLang("MATR090","STR0018",18)
-#DEFINE STR0019 FWI18NLang("MATR090","STR0019",19)
-#DEFINE STR0020 FWI18NLang("MATR090","STR0020",20)
-#DEFINE STR0021 FWI18NLang("MATR090","STR0021",21)
-#DEFINE STR0022 FWI18NLang("MATR090","STR0022",22)
-#DEFINE STR0023 FWI18NLang("MATR090","STR0023",23)
-#DEFINE STR0024 FWI18NLang("MATR090","STR0024",24)
-#DEFINE STR0025 FWI18NLang("MATR090","STR0025",25)
-#DEFINE STR0026 FWI18NLang("MATR090","STR0026",26)
-#DEFINE STR0027 FWI18NLang("MATR090","STR0027",27)
-#DEFINE STR0028 FWI18NLang("MATR090","STR0028",28)
-#DEFINE STR0029 FWI18NLang("MATR090","STR0029",29)
-#DEFINE STR0030 FWI18NLang("MATR090","STR0030",30)
-#DEFINE STR0031 FWI18NLang("MATR090","STR0031",31)
-#DEFINE STR0032 FWI18NLang("MATR090","STR0032",32)
-#DEFINE STR0033 FWI18NLang("MATR090","STR0033",33)
-#DEFINE STR0034 FWI18NLang("MATR090","STR0034",34)
-#DEFINE STR0035 FWI18NLang("MATR090","STR0035",35)
-#DEFINE STR0036 FWI18NLang("MATR090","STR0036",36)
-#DEFINE STR0037 FWI18NLang("MATR090","STR0037",37)
-#DEFINE STR0038 FWI18NLang("MATR090","STR0038",38)
-#DEFINE STR0039 FWI18NLang("MATR090","STR0039",39)
-#DEFINE STR0040 FWI18NLang("MATR090","STR0040",40)
+#ifdef SPANISH
+	#define STR0001 "Detalle de Compras"
+	#define STR0002 "Este informe imprimira el detalle de los itemes"
+	#define STR0003 "referentes a las compras efectuadas."
+	#define STR0004 " Proveedor          "
+	#define STR0005 " Fecha de registro"
+	#define STR0006 " Tipo+Grupo+Codigo  "
+	#define STR0007 " Grupo+Codigo   "
+	#define STR0008 "A Rayas"
+	#define STR0009 "Administracion"
+	#define STR0010 "Seleccionando registros..."
+	#define STR0011 "ANULADO POR EL OPERADOR"
+	#define STR0012 "-Devoluciones:"
+	#define STR0013 "TOTAL GENERAL   ----> "
+	#define STR0014 "TOTAL PRODUCTO  ----> "
+	#define STR0015 "TOTAL GRUPO "
+	#define STR0016 "TOTAL TIPO  "
+	#define STR0017 "TOTAL FACTURA ------> "
+	#define STR0018 "TOTAL PROVEEDOR ----> "
+	#define STR0019 "TOT. A FECHA "
+	#define STR0020 "FACTURA      PRODUCTO        DESCRIPCION                           CANTIDAD  UM      PR.UNITARIO  IPI             VALOR       CODIGO RAZON SOCIAL DEL PROVEEDOR               TP TES TP  GRUPO  FECHA REGIS.       COSTO DEP"
+	#define STR0021 "FACTURA      PRODUCTO        DESCRIPCION                           CANTIDAD  UM      PR.UNITARIO  IPI             VALOR ICMS  CODIGO               RAZON SOCIAL               TP TES TP  GRUPO  FECHA REGIS.       COSTO DEP"
+	#define STR0022 "FACTURA      PRODUCTO        DESCRIPCION                           CANTIDAD  UM      PR.UNITARIO    IMP.NINC.            VALOR     IMP.INC. CODIGO NOMBRE REDUCIDO            TP TES TP  GRUPO  FECHA REGIS.       COSTO DEP"
+#else
+	#ifdef ENGLISH
+		#define STR0001 "List of Purchases"
+		#define STR0002 "This report will show a list of items"
+		#define STR0003 "referring to the purchases carried out."
+		#define STR0004 " Supplier           "
+		#define STR0005 " Date of Typing     "
+		#define STR0006 " Type+Group+Code    "
+		#define STR0007 " Group+Code     "
+		#define STR0008 "Z.Form  "
+		#define STR0009 "Management   "
+		#define STR0010 "Selecting Records...      "
+		#define STR0011 "CANCELLED BY THE OPERATOR   "
+		#define STR0012 "-Returns:"
+		#define STR0013 "GRAND TOTAL     --> "
+		#define STR0014 "TOTAL PRODUCT     --> "
+		#define STR0015 "TOTAL GROUP"
+		#define STR0016 "TOTAL TYPE  "
+		#define STR0017 "TOTAL INVOICE     --> "
+		#define STR0018 "TOTAL SUPPLIER    --> "
+		#define STR0019 "TOT. AT DATE "
+		#define STR0020 "INVOICE      PRODUCT         DESCRIPTION                          QUANTITY UM        UNIT PRICE   IPI             VALUE ICMS  CODE   CORPOR. NAME                             TP TIO TP  GROUP  TYP. DATE           COST WR"
+		#define STR0021 "INVOICE      PRODUCT         DESCRIPTION                          QUANTITY UM        UNIT PRICE   IPI             VALUE ICMS  CODE                 CORPOR. NAME               TP TIO TP  GROUP  TYP. DATE           COST WR"
+		#define STR0022 "INVOICE      PRODUCT         DESCRIPTION                            QUANTITY UM       UNIT PRICE    IMP.NINC.            VALUE     IMP.INC.   CODE CORPOR. NAME               TP TIO TP  GROUP  TYP. DATE            COST WR"
+	#else
+		#define STR0001 "Relacao de Compras"
+		#define STR0002 "Este relatorio ira imprimir a relacao de itens"
+		#define STR0003 "referentes a compras efetuadas."
+		#define STR0004 " Fornecedor         "
+		#define STR0005 " Data De Digitacao  "
+		#define STR0006 " Tipo+Grupo+Codigo  "
+		#define STR0007 " Grupo+Codigo   "
+		#define STR0008 "Zebrado"
+		#define STR0009 "Administracao"
+		#define STR0010 "Selecionando Registros..."
+		#define STR0011 "CANCELADO PELO OPERADOR"
+		#define STR0012 "-Devolucoes:"
+		#define STR0013 "TOTAL GERAL       --> "
+		#define STR0014 "TOTAL PRODUTO     --> "
+		#define STR0015 "TOTAL GRUPO "
+		#define STR0016 "TOTAL TIPO  "
+		#define STR0017 "TOTAL NOTA FISCAL --> "
+		#define STR0018 "TOTAL FORNECEDOR  --> "
+		#define STR0019 "TOT. NA DATA "
+		#define STR0020 "NOTA         PRODUTO         DESCRICAO                            QUANTIDADE UM   PR.UNIT         PR.VENDA       VALOR ICMS  CODIGO RAZAO SOCIAL                             TP TES TP  GRUPO  DATA DIG.          CUSTO AMZ"
+		#define STR0021 "NOTA         PRODUTO         DESCRICAO                            QUANTIDADE UM   PR.UNIT         PR.VENDA       VALOR ICMS  CODIGO               RAZAO SOCIAL               TP TES TP  GRUPO  DATA DIG.          CUSTO AMZ"
+		#define STR0022 "NOTA         PRODUTO         DESCRICAO                            QUANTIDADE UM      PR.UNITARIO    IMP.NINC.            VALOR     IMP.INC. CODIGO NOME REDUZIDO              TP TES TP  GRUPO  DATA DIG.          CUSTO AMZ"
+	#endif
+#endif

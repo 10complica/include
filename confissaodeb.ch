@@ -1,0 +1,7 @@
+#define STR0010 'L O J A S P L A N E T A'
+#define STR0020 'COMPROVANTE DE DÉBITO'
+#define STR0030 'Itens do orçamento:'
+#define STR0040 'Plano: Crediário'
+#define STR0050 'Por esta assinatura declaro-me devedora da '
+#define STR0060 ' e reconheço como certa, liquida e exigível a dívida aqui reconhecida bem como, me vinculo as cláusulas e condições do contrato de compra e venda registrado no cartório de registro de títulos, documentos e pessoas jurídica da cidade de CAMAÇARI-BA, cuja cópia declaro ter recebido neste ato, lido e concordo integralmente com seus termos. Reconheço que em caso de não pagamento de qualquer das parcelas na data aprazada, conforme disposto no art. 394 do Código Civil, acarretará imediatamente, sem necessidade de qualquer notificação ou interpelação prévia, o vencimento antecipado de todas as parcelas vincendas à época do inadimplemento e a imediata execução do presente instrumento;'
+#define STR0070 'Assinatura do cliente'

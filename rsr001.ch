@@ -1,47 +1,135 @@
-#DEFINE STR0001 FWI18NLang("RSR001","STR0001",1)
-#DEFINE STR0002 FWI18NLang("RSR001","STR0002",2)
-#DEFINE STR0003 FWI18NLang("RSR001","STR0003",3)
-#DEFINE STR0004 FWI18NLang("RSR001","STR0004",4)
-#DEFINE STR0005 FWI18NLang("RSR001","STR0005",5)
-#DEFINE STR0006 FWI18NLang("RSR001","STR0006",6)
-#DEFINE STR0007 FWI18NLang("RSR001","STR0007",7)
-#DEFINE STR0008 FWI18NLang("RSR001","STR0008",8)
-#DEFINE STR0009 FWI18NLang("RSR001","STR0009",9)
-#DEFINE STR0010 FWI18NLang("RSR001","STR0010",10)
-#DEFINE STR0011 FWI18NLang("RSR001","STR0011",11)
-#DEFINE STR0012 FWI18NLang("RSR001","STR0012",12)
-#DEFINE STR0013 FWI18NLang("RSR001","STR0013",13)
-#DEFINE STR0014 FWI18NLang("RSR001","STR0014",14)
-#DEFINE STR0015 FWI18NLang("RSR001","STR0015",15)
-#DEFINE STR0016 FWI18NLang("RSR001","STR0016",16)
-#DEFINE STR0017 FWI18NLang("RSR001","STR0017",17)
-#DEFINE STR0018 FWI18NLang("RSR001","STR0018",18)
-#DEFINE STR0019 FWI18NLang("RSR001","STR0019",19)
-#DEFINE STR0020 FWI18NLang("RSR001","STR0020",20)
-#DEFINE STR0021 FWI18NLang("RSR001","STR0021",21)
-#DEFINE STR0022 FWI18NLang("RSR001","STR0022",22)
-#DEFINE STR0023 FWI18NLang("RSR001","STR0023",23)
-#DEFINE STR0024 FWI18NLang("RSR001","STR0024",24)
-#DEFINE STR0025 FWI18NLang("RSR001","STR0025",25)
-#DEFINE STR0026 FWI18NLang("RSR001","STR0026",26)
-#DEFINE STR0027 FWI18NLang("RSR001","STR0027",27)
-#DEFINE STR0028 FWI18NLang("RSR001","STR0028",28)
-#DEFINE STR0029 FWI18NLang("RSR001","STR0029",29)
-#DEFINE STR0030 FWI18NLang("RSR001","STR0030",30)
-#DEFINE STR0031 FWI18NLang("RSR001","STR0031",31)
-#DEFINE STR0032 FWI18NLang("RSR001","STR0032",32)
-#DEFINE STR0033 FWI18NLang("RSR001","STR0033",33)
-#DEFINE STR0034 FWI18NLang("RSR001","STR0034",34)
-#DEFINE STR0035 FWI18NLang("RSR001","STR0035",35)
-#DEFINE STR0036 FWI18NLang("RSR001","STR0036",36)
-#DEFINE STR0037 FWI18NLang("RSR001","STR0037",37)
-#DEFINE STR0038 FWI18NLang("RSR001","STR0038",38)
-#DEFINE STR0039 FWI18NLang("RSR001","STR0039",39)
-#DEFINE STR0040 FWI18NLang("RSR001","STR0040",40)
-#DEFINE STR0041 FWI18NLang("RSR001","STR0041",41)
-#DEFINE STR0042 FWI18NLang("RSR001","STR0042",42)
-#DEFINE STR0043 FWI18NLang("RSR001","STR0043",43)
-#DEFINE STR0044 FWI18NLang("RSR001","STR0044",44)
-#DEFINE STR0045 FWI18NLang("RSR001","STR0045",45)
-#DEFINE STR0046 FWI18NLang("RSR001","STR0046",46)
-#DEFINE STR0047 FWI18NLang("RSR001","STR0047",47)
+#ifdef SPANISH
+	#define STR0001 "Este programa tiene como objetivo imprimir los curriculums"
+	#define STR0002 "conforme parametros seleccionados."
+	#define STR0003 "Curriculum"
+	#define STR0004 "Nombre"
+	#define STR0005 "A Rayas"
+	#define STR0006 "Administracion"
+	#define STR0007 "Curriculums"
+	#define STR0008 "Curriculum Vitae"
+	#define STR0009 "Anulado por el usuario"
+	#define STR0010 "Seleccionando Registros..."
+	#define STR0011 "Anulado por el Operador"
+	#define STR0012 "DATOS PERSONALES"
+	#define STR0013 "Nombre: "
+	#define STR0014 "Tel.: "
+	#define STR0015 "Fc.Nasc.: "
+	#define STR0016 "Est.Civil: "
+	#define STR0017 "Direccion: "
+	#define STR0018 "RG: "
+	#define STR0019 "CIC: "
+	#define STR0020 "AREA DE INTERES"
+	#define STR0021 "Cargo: "
+	#define STR0022 "Pret.Salarial: "
+	#define STR0023 "Indicado por: "
+	#define STR0024 "CALIFICACIONES"
+	#define STR0025 "*** Calificaciones no Archivadas ***"
+	#define STR0026 "ANALISIS"
+	#define STR0027 "*** Analisis no archivado ***"
+	#define STR0028 "HISTORICO PROFESIONAL "
+	#define STR0029 "Admision   Retiro   Area                                Empresa                        Cargo"
+	#define STR0030 "Actividades:"
+	#define STR0031 "*** Actividad no Archivada ***"
+	#define STR0032 "*** Historial Profesional no Archivada ***"
+	#define STR0033 "FORMACION ESCOLAR"
+	#define STR0034 "CURSOS EXTRACURRICULARES"
+	#define STR0035 "Fc.Graduacion   Entidad                       Curso"
+	#define STR0036 "*** Escolaridad no Archivada ***"
+	#define STR0037 "*** Curso Extracurricular no archivado ***"
+	#define STR0038 "EXPERIENCIA"
+	#define STR0039 "*** Experiencia no archivada ***"
+	#define STR0040 "Grupo              Factor                            Grado"
+	#define STR0041 "CARACTERÍSTICAS DEL EMPLEADO"
+	#define STR0042 "Característica                 Respuesta"
+	#define STR0043 "*** Características del empleado no se definieron ***"
+#else
+	#ifdef ENGLISH
+		#define STR0001 "This Program will print the Curricula, according to"
+		#define STR0002 "the selected parameters."
+		#define STR0003 "Curriculum"
+		#define STR0004 "Name"
+		#define STR0005 "Z.Form"
+		#define STR0006 "Management"
+		#define STR0007 "Curricula"
+		#define STR0008 "Curriculum"
+		#define STR0009 "Cancelled by the User"
+		#define STR0010 "Selecting Records..."
+		#define STR0011 "Cencelled by Operator"
+		#define STR0012 "PERSONAL DATA"
+		#define STR0013 "Name: "
+		#define STR0014 "Phone:"
+		#define STR0015 "Birth: "
+		#define STR0016 "Mar.Status: "
+		#define STR0017 "Address: "
+		#define STR0018 "ID: "
+		#define STR0019 "FTR: "
+		#define STR0020 "DESIRED AREA"
+		#define STR0021 "Posit.: "
+		#define STR0022 "Salary wanted: "
+		#define STR0023 "Indicated by: "
+		#define STR0024 "SKILS"
+		#define STR0025 "*** Skils not registered ***"
+		#define STR0026 "ANALISYS"
+		#define STR0027 "*** Analisys not Registered ***"
+		#define STR0028 "PROFESSIONAL HISTORY"
+		#define STR0029 "Admiss.    Demiss.    Area                                Company                        Funct."
+		#define STR0030 "Activities:"
+		#define STR0031 "*** Activity not Registered ***"
+		#define STR0032 "*** Professional History not Registered ***"
+		#define STR0033 "GRADUATION"
+		#define STR0034 "EXTRA CURRICULUM COURSE"
+		#define STR0035 "Graduat.Dt.   Entity                         Course"
+		#define STR0036 "*** Graduation not Registered ***"
+		#define STR0037 "*** Extra Curricular Course not Registered ***"
+		#define STR0038 "EXPERIENCE"
+		#define STR0039 "*** Experience not Registered ***"
+		#define STR0040 "Group              Factor                          Degree"
+		#define STR0041 "EMPLOYEE CHARACTERISTICS"
+		#define STR0042 "Characteristic                Response"
+		#define STR0043 "*** Employee Characteristics Not Defined ***"
+	#else
+		#define STR0001 If( cPaisLoc $ "ANG|PTG", "Este programa tem como objectivo imprimir os currículos", "Este programa tem como objetivo imprimir os curriculos" )
+		#define STR0002 If( cPaisLoc $ "ANG|PTG", "Conforme parâmetros seleccionados.", "conforme parametros selecionados." )
+		#define STR0003 If( cPaisLoc $ "ANG|PTG", "Currículo", "Curriculo" )
+		#define STR0004 "Nome"
+		#define STR0005 If( cPaisLoc $ "ANG|PTG", "Código de barras", "Zebrado" )
+		#define STR0006 If( cPaisLoc $ "ANG|PTG", "Administração", "Administracao" )
+		#define STR0007 If( cPaisLoc $ "ANG|PTG", "Currículos", "Curriculos" )
+		#define STR0008 If( cPaisLoc $ "ANG|PTG", "Currículo", "Curriculo" )
+		#define STR0009 If( cPaisLoc $ "ANG|PTG", "Cancelado pelo utilizador", "Cancelado pelo usuario" )
+		#define STR0010 If( cPaisLoc $ "ANG|PTG", "A Seleccionar Registos...", "Selecionando Registros..." )
+		#define STR0011 If( cPaisLoc $ "ANG|PTG", "Cancelado Pelo Operador", "Cancelado pelo Operador" )
+		#define STR0012 If( cPaisLoc $ "ANG|PTG", "Dados Pessoais", "DADOS PESSOAIS" )
+		#define STR0013 "Nome: "
+		#define STR0014 "Tel.: "
+		#define STR0015 If( cPaisLoc $ "ANG|PTG", "Dt.nasc.: ", "Dt.Nasc.: " )
+		#define STR0016 If( cPaisLoc $ "ANG|PTG", "Est.civil: ", "Est.Civil: " )
+		#define STR0017 If( cPaisLoc $ "ANG|PTG", "Endereço: ", "Endereco: " )
+		#define STR0018 If( cPaisLoc $ "ANG|PTG", "Rg: ", "RG: " )
+		#define STR0019 If( cPaisLoc $ "ANG|PTG", "Cic: ", "CIC: " )
+		#define STR0020 If( cPaisLoc $ "ANG|PTG", "área De Interesse", "AREA DE INTERESSE" )
+		#define STR0021 "Cargo: "
+		#define STR0022 If( cPaisLoc $ "ANG|PTG", "Pret.salarial: ", "Pret.Salarial: " )
+		#define STR0023 "Indicado por: "
+		#define STR0024 If( cPaisLoc $ "ANG|PTG", "Qualificações", "QUALIFICACOES" )
+		#define STR0025 If( cPaisLoc $ "ANG|PTG", "*** qualificações não registadas ***", "*** Qualificacoes nao cadastrada ***" )
+		#define STR0026 If( cPaisLoc $ "ANG|PTG", "Análise", "ANALISE" )
+		#define STR0027 If( cPaisLoc $ "ANG|PTG", "*** análise não registada ***", "*** Analise nao cadastrada ***" )
+		#define STR0028 If( cPaisLoc $ "ANG|PTG", "Histórico profissional ", "HISTORICO PROFISSIONAL " )
+		#define STR0029 If( cPaisLoc $ "ANG|PTG", "Admissão   Demissão   área                                Empresa                        Função", "Admissao   Demissao   Area                                Empresa                        Funcao" )
+		#define STR0030 If( cPaisLoc $ "ANG|PTG", "Actividades:", "Atividades:" )
+		#define STR0031 If( cPaisLoc $ "ANG|PTG", "*** actividade não registada ***", "*** Atividade nao cadastrada ***" )
+		#define STR0032 If( cPaisLoc $ "ANG|PTG", "*** histórico profissional não registado ***", "*** Historico Profissional nao cadastrada ***" )
+		#define STR0033 If( cPaisLoc $ "ANG|PTG", "Formação Escolar", "FORMACAO ESCOLAR" )
+		#define STR0034 If( cPaisLoc $ "ANG|PTG", "Cursos Extracurriculares", "CURSOS EXTRACURRICULAR" )
+		#define STR0035 If( cPaisLoc $ "ANG|PTG", "Dt.formação   Entidade                       Curso", "Dt.Formacao   Entidade                       Curso" )
+		#define STR0036 If( cPaisLoc $ "ANG|PTG", "*** formação escolar não registada ***", "*** Formacao Escolar nao cadastrada ***" )
+		#define STR0037 If( cPaisLoc $ "ANG|PTG", "*** curso extracurricular não registado ***", "*** Curso ExtraCurricular nao cadastrado ***" )
+		#define STR0038 If( cPaisLoc $ "ANG|PTG", "Experiência", "EXPERIENCIA" )
+		#define STR0039 If( cPaisLoc $ "ANG|PTG", "*** experiência não registada ***", "*** Experiencia nao cadastrada ***" )
+		#define STR0040 If( cPaisLoc $ "ANG|PTG", "Grupo              Factor                             Grau", "Grupo              Fator                             Grau" )
+		#define STR0041 "CARACTERISTICAS DO FUNCIONÁRIO"
+		#define STR0042 "Característica                 Resposta"
+		#define STR0043 "*** Características do Funcionário não foram definidas ***"
+	#endif
+#endif

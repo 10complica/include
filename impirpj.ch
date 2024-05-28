@@ -70,7 +70,7 @@
 		#define STR0014 "| 3. - GROSS INCOME AND TAX WITHHELD AT THE SOURCE                             |"
 		#define STR0015 "| MTH COD. INCOME DESCRIPTION                    GROO INCOME       TAX WITHHELD|"
 		#define STR0016 "|     DARF                                           R$                R$      |"
-		#define STR0017 "T O T A L                        "
+		#define STR0017 "|       T O T A L                        "
 		#define STR0018 "| 4. - COMPLEMENTARY INFORMATION                                               |"
 		#define STR0019 "| 5. - RESPONSIBLE FOR THE INFORMATION                                         |"
 		#define STR0020 "DatE  : "
