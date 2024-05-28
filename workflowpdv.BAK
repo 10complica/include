@@ -1,0 +1,11 @@
+#ifdef SPANISH
+#else
+	#ifdef ENGLISH
+	#else
+		// DETALHES DO LAYOUT
+#define STR0001 "<!doctype html>"
+#define STR0002 "<html><head>"
+#define STR0003 "<meta charset='utf-8'>"
+#define STR0004 "<title>Workflor - Pedido de Venda</title>"
+	#endif
+#endif
